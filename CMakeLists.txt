@@ -4,6 +4,6 @@ set(CMAKE_CXX_STANDARD 14)
 
 find_package(SDL2 REQUIRED SDL2)
 
-add_executable(sdltutorials lesson_3.cpp)
+add_executable(sdltutorials lesson_4.cpp)
 
 target_link_libraries(sdltutorials PRIVATE SDL2)
