@@ -85,7 +85,7 @@ bool loadMedia(){
     return true;
 }
 
-int main(){
+int lesson4_main(){
     if(init() == false){
         std::cout << "init failed" << std::endl;
         return 0;
