@@ -52,7 +52,6 @@ void clear(){
     SDL_Quit();
 }
 
-
 int lesson_8_main(){
     if(!init()){
         std::cout << "init failed" << std::endl;
